@@ -1,6 +1,6 @@
 ---
 title: "Eligibility"
-bg: '#dddddd'
+bg: orange
 color: black
 fa-icon: check-square-o
 ---
