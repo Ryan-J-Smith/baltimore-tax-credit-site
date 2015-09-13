@@ -14,7 +14,7 @@ fa-icon: check-square-o
 ### 2. Your combined household income is less than $60,000 a year
 {: .left}
 
-#### Full details regarding eligibility are available [**here**](http://www.dat.state.md.us/sdatweb/htc.html)
+#### Full details regarding eligibility are available <a href="http://www.dat.state.md.us/sdatweb/htc.html" target="_blank">**here**</a>
 {: .left}
 
 <br>
