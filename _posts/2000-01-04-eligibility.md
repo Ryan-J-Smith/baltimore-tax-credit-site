@@ -25,5 +25,5 @@ Full details regarding eligibility are available [**here**](http://www.dat.state
 
 ## If you **aren't** eligible:
 
-#### Check the map and let someone know about this site.  Chances are some of your friends, family, or neighbors are eligible and don't know it.
+#### Check the map and tell others about this site.  Chances are some of your friends, family, or neighbors are eligible and don't know it.
 
