@@ -7,6 +7,8 @@ fa-icon: usd
 
 # How much could you save?
 
+Enter in some basic information about your income and your property value below to calculate how much money you might save by applying for the tax credit.
+
 <div align="center">
     <form name="calculator">
         <input type="textfield" name="income" value="">  
