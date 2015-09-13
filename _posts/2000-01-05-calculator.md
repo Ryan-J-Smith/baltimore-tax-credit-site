@@ -11,9 +11,9 @@ Enter in some basic information about your income and your property value below 
 
 <div align="center">
     <form name="calculator">
-        <input type="textfield" name="income" value="">  
+        <input type="textfield" name="income" value="30000">  
         &nbsp; &nbsp; &nbsp;        
-        <input type="textfield" name="taxcost" value="">    
+        <input type="textfield" name="taxcost" value="250000">    
         &nbsp;        
         <input type="button" value="Estimate" onClick="calculations()">
         <br>
@@ -24,9 +24,9 @@ Enter in some basic information about your income and your property value below 
         <br>
         <br>
         <br>
-        <input type="textfield" name="taxlimit" value="">
+        <input type="textfield" name="taxlimit" value="1680">
         &nbsp; &nbsp; &nbsp;        
-        <input type="textfield" name="taxsavings" value="">     
+        <input type="textfield" name="taxsavings" value="3820">     
         &nbsp; &nbsp;    &nbsp;   
         <input type="reset" value="Reset">
         <br>
