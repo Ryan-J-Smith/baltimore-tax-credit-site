@@ -7,7 +7,7 @@ fa-icon: usd
 
 # How much could you save?
 
-Enter in some basic information about your income and your property value below to calculate how much money you might save by applying for the tax credit.
+#### Enter in some basic information about your income and property value below to calculate how much money you might save by applying for the tax credit.
 
 <div align="center">
     <form name="calculator">
@@ -22,20 +22,10 @@ Enter in some basic information about your income and your property value below 
         Approximate Property Value
          &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;        
         <br>
-        <br>
-        <br>
-        <input type="textfield" name="taxlimit" value="1680">
-        &nbsp; &nbsp; &nbsp;        
-        <input type="textfield" name="taxsavings" value="3820">     
-        &nbsp; &nbsp;    &nbsp;   
-        <input type="reset" value="Reset">
-        <br>
-        Expected Tax Limit
-         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        Expected Savings
-         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
     </form>
 </div>
+
+#### According to our calculations, your tax limit should be <b id="limit" style="color:black; font-size:125%; font-family:sans-serif">$1680</b> and you could save <b id="savings" style="color:black; font-size:125%; font-family:sans-serif">$3820</b> by applying for the property tax credit.
 
 <script>
 function calculations() {
@@ -69,13 +59,14 @@ function calculations() {
     calcedval += .09*startingval
     startingval = 0
     
-    document.calculator.taxlimit.value = calcedval
     
     savings = eval(document.calculator.taxcost.value)*taxrate - calcedval
     if (savings < 0) {
         savings = 0
     }
     
-    document.calculator.taxsavings.value = savings
+    document.getElementById('savings').innerHTML ="$" + savings
+        document.calculator.taxlimit.value = "$" + calcedval
+
 }
 </script>
