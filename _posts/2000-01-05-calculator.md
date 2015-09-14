@@ -66,7 +66,7 @@ function calculations() {
     }
     
     document.getElementById('savings').innerHTML ="$" + savings
-        document.calculator.taxlimit.value = "$" + calcedval
+    document.getElementById('limit').innerHTML = "$" + calcedval
 
 }
 </script>
