@@ -15,13 +15,13 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "Baltimore City TaxReduce"
+title:       "Baltimore City Tax Credit Map"
 keywords:    "Baltimore, property tax, tax credit"
 description: "A site to help Baltimore residents get property tax credits"
 source_link: "https://ryan-j-smith.github.io/baltimore-credit-site"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: UA-67607917-1 ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
