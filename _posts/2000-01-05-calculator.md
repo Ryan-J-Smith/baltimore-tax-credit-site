@@ -65,8 +65,8 @@ function calculations() {
         savings = 0
     }
     
-    document.getElementById('savings').innerHTML ="$" + savings
-    document.getElementById('limit').innerHTML = "$" + calcedval
+    document.getElementById('savings').innerHTML ="$" + Math.round(savings)
+    document.getElementById('limit').innerHTML = "$" + Math.round(calcedval)
 
 }
 </script>
