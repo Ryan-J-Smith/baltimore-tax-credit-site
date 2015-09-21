@@ -25,7 +25,9 @@ fa-icon: usd
     </form>
 </div>
 
-#### According to our calculations, your tax limit should be <b id="limit" style="color:black; font-size:125%; font-family:sans-serif">$1680</b> and you could save <b id="savings" style="color:black; font-size:125%; font-family:sans-serif">$3820</b> by applying for the property tax credit.
+<h4 id="potentialsavingstext">According to our calculations, your tax limit should be <b id="limit" style="color:black; font-size:125%; font-family:sans-serif">$1680</b> and you could save <b id="savings" style="color:black; font-size:125%; font-family:sans-serif">$3820</b> by applying for the property tax credit.</h4>
+
+<h4 id="savingsineligabletext" style="display: none;">Sorry, you are not currently eligable for the tax credit based on your reported household income.</h4>
 
 <script>
 function calculations() {
@@ -68,5 +70,12 @@ function calculations() {
     document.getElementById('savings').innerHTML ="$" + Math.round(savings)
     document.getElementById('limit').innerHTML = "$" + Math.round(calcedval)
 
+    if (eval(document.calculator.income.value) > 60000) {
+        document.getElementById('potentialsavingstext').style.display = 'none';
+        document.getElementById('savingsineligabletext').style.display = 'block';
+    } else {
+        document.getElementById('potentialsavingstext').style.display = 'block';
+        document.getElementById('savingsineligabletext').style.display = 'none';
+    }
 }
 </script>
