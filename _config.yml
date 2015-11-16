@@ -15,7 +15,7 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "Baltimore City Tax Credit Map"
+title:       "Take the Credit"
 keywords:    "Baltimore, property tax, tax credit"
 description: "A site to help Baltimore residents get property tax credits"
 source_link: "https://ryan-j-smith.github.io/baltimore-credit-site"
