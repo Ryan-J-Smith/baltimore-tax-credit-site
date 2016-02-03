@@ -11,8 +11,8 @@ permalink: / ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
-highlighter: pygments
-
+# highlighter: pygments
+highlighter: rouge
 
 ### content configuration ###
 title:       "Take the Credit"
